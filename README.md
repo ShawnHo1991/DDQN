@@ -2,6 +2,7 @@
 
 DDQN results: Average Reward: 9.50, Max Reward: 11.0, Min Reward: 8.0
 
+
     def replay(batch_size):
         global epsilon
         minibatch = random.sample(memory, batch_size)
